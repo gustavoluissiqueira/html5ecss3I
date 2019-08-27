@@ -1,0 +1,188 @@
+body {
+    font-family: "Crimson Text","Times New Roman", serif;
+    background-color: #F2FFFC;
+    line-height: 1.5;
+    
+}
+main{
+    float: left;
+    width: 85%;
+    padding-bottom: 80px;
+    
+}
+
+
+.titulo-principal{
+    color: #ffffff;
+    text-align: center;
+    background-color:#851944;
+    padding: 25px;
+    border-bottom: 10px solid #000000;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.texto-principal{
+    width: 720px;
+    padding: 30px 0;
+    margin:auto;
+   
+}
+
+
+
+h1,h2{
+    font-family: "Open Sans Condensed", "Arial",sans-serif;
+}
+
+.sub-titulo{
+    font-size: 30px;
+    clear: both;
+}
+
+p{
+    text-align: justify;
+    padding: 20px 0;
+
+}
+
+
+aside a{
+    color: inherit;
+    font-family: "Open Sans Condensed", "Arial",sans-serif;
+}
+
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+/*Citações*/
+blockquote{
+    background-color: #D9E5E3;
+    border: 10px solid #C2CCCA;
+    width: 180px;
+    text-align: justify;
+    float: right;
+   
+}
+
+cite{
+    font-style: italic;
+   
+}
+
+.fiat{
+    float: right;
+    margin: 10px 0px 10px 20px;
+    padding: 20px 10px 20px 10px;
+}
+
+.petrobras{
+    float: left;
+    margin: 10px 20px 10px 0px;
+    padding: 20px 10px 20px 10px;
+}
+
+/*Menu*/
+#menu-de-navegacao  {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    padding: 20px;
+    text-align: center;
+    float: right;
+    box-sizing: border-box;
+    width: 15%;
+    position: relative;
+    top: 310px;
+    
+}
+.titulo-menu{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+#menu-links a {
+    color: #F2FFFC;
+    text-transform: lowercase;
+ 
+}
+
+.icone-rede-social li{
+    display: inline-block;
+
+}
+.icone-rede-social a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    color: transparent;
+}
+.github{
+    background-image: url(github.png);
+}
+.twitter{
+    background-image: url(twitter.png);
+}
+
+.linkedin{
+    background-image: url(linkedin.png);
+}
+.foto-perfil, #menu-de-navegacao{
+    float: right;
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+}
+.foto-perfil{
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+
+
+/*Rodapé*/
+
+#rodape-pagina {
+    background-color: #000;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #F2FFFC;
+    padding: 20px;
+    clear: both;
+    
+}
+
+.posts-espacameto {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+/*Blog*/
+/*corpo principal*/
+.corpo-post{
+    width: 720px;
+    padding: 30px 0;
+    margin:auto;
+}
+
+.leia-mais{
+    color: #851944;
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 20px;
+    text-align:center;
+    display: block;
+    background-color: #E6E7E8;
+    font-family: "Open Sans Condensed", "Arial",sans-serif;
+    
+}

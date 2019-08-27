@@ -1,0 +1,90 @@
+body {
+    font-family: "Crimson Text","Times New Roman", serif;
+    background-color: #F2FFFC;
+    line-height: 1.5;
+    
+}
+
+
+main h1{
+    color: #ffffff;
+    text-align: center;
+    background-color:#851944;
+    padding: 25px;
+    border-bottom: 10px solid #000000;
+    font-size: 60px;
+}
+h1,h2{
+    font-family: "Open Sans Condensed", "Arial",sans-serif;
+}
+
+h2{
+    font-size: 30px;
+}
+
+p{
+    
+    text-align: justify;
+    padding: 20px 0;
+}
+
+main a{
+    color: #851944;
+   
+}
+main div{
+    width: 720px;
+    padding: 30px 0;
+    margin:auto;
+}
+aside a{
+    color: inherit;
+    font-family: "Open Sans Condensed", "Arial",sans-serif;
+}
+
+aside h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+/*Citações*/
+blockquote{
+    background-color: #D9E5E3;
+    padding: 20px 40px 20px 40px;
+    margin: 20px 40px 20px 40px;
+    border: 10px solid #C2CCCA;
+    width: 250px;
+   
+}
+
+/*Menu*/
+aside  {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    padding: 20px;
+    text-align: center;
+}
+aside li{
+    display: inline-block;
+}
+nav a {
+    color: #F2FFFC;
+ 
+}
+
+/*Rodapé*/
+
+footer{
+    background-color: #000000;
+    color: #F2FFFC;
+    padding: 20px;
+}
+
